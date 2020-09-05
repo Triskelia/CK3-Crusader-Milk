@@ -1,0 +1,14 @@
+﻿l_english:
+#Lifestyle Traits
+ trait_hucow_1:0 "Novice Hucow"
+ trait_hucow_1_desc:0 "This character is a hucow, able to produce milk even when not pregnant. She still need to get used to being milked."
+ trait_hucow_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a hucow, able to produce milk even when not pregnant. She still need to get used to being milked."
+ trait_hucow_2:0 "Hucow"
+ trait_hucow_2_desc:0 "This character is a hucow, able to produce milk even when not pregnant."
+ trait_hucow_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a hucow, able to produce milk even when not pregnant."
+ trait_hucow_3:0 "Prime Hucow"
+ trait_hucow_3_desc:0 "This character is a prime hucow, able to produce high quality milk at an impressive rate, even when not pregnant."
+ trait_hucow_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a prime hucow, able to produce high quality milk at an impressive rate, even when not pregnant."
+
+#Lifestyle Groups
+ trait_lifestyle_hucow:0 "Hucows"

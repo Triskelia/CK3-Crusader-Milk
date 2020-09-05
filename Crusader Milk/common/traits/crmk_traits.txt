@@ -1,0 +1,104 @@
+hucow_1 = {
+	index = 6300
+	lifestyle = yes
+
+	female_only = yes
+
+	fertility = 0.10
+	health = 0.05
+
+	group = lifestyle_hucow
+	level = 1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hucow_1_desc
+			}
+			desc = trait_hucow_1_character_desc
+		}
+	}
+
+	ai_zeal = very_low_negative_ai_value
+	ai_sociability = very_low_positive_ai_value
+
+	compatibility = {
+		hucow_1 = @pos_compat_medium
+		hucow_2 = @pos_compat_medium
+		hucow_3 = @pos_compat_medium
+	}
+}
+
+hucow_2 = {
+	index = 6301
+	lifestyle = yes
+
+	female_only = yes
+
+	fertility = 0.25
+	health = 0.15
+
+	group = lifestyle_hucow
+	level = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hucow_2_desc
+			}
+			desc = trait_hucow_2_character_desc
+		}
+	}
+
+	ai_zeal = very_low_negative_ai_value
+	ai_sociability = very_low_positive_ai_value
+
+	compatibility = {
+		hucow_1 = @pos_compat_medium
+		hucow_2 = @pos_compat_medium
+		hucow_3 = @pos_compat_medium
+	}
+}
+
+hucow_3 = {
+	index = 6302
+	lifestyle = yes
+
+	female_only = yes
+
+	fertility = 0.50
+	health = 0.25
+
+	group = lifestyle_hucow
+	level = 3
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hucow_3_desc
+			}
+			desc = trait_hucow_3_character_desc
+		}
+	}
+
+	ai_zeal = very_low_negative_ai_value
+	ai_sociability = very_low_positive_ai_value
+
+	compatibility = {
+		hucow_1 = @pos_compat_medium
+		hucow_2 = @pos_compat_medium
+		hucow_3 = @pos_compat_medium
+	}
+}
